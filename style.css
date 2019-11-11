@@ -1,0 +1,15 @@
+.hero-background-img {
+    background-image: url("images/single_rose.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+    font-size: 100px;
+    font-weight: bolder;
+    background-color: #F6648C;
+    height: 300px;
+}
+
+h1 {
+    font-size: 1em;
+    color: #3a0a0a;
+}
