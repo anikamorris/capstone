@@ -2,7 +2,7 @@
     background-image: url("images/single_rose.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 25%;
+    background-position-y: 20%;
     font-size: 100px;
     font-weight: bolder;
     background-color: #F6648C;
@@ -11,5 +11,9 @@
 
 h1 {
     font-size: 1em;
-    color: #3a0a0a;
+    color: #F43F70;
+}
+
+.row-grid + .row-grid {
+    margin-top: 30px;
 }
