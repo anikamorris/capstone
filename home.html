@@ -12,10 +12,10 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-primary">
         <a class="navbar-brand" href="#">Rosa</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -33,45 +33,55 @@
     </nav>
 
     <!-- HERO -->
-    <div class="jumbotron hero-background-img text-center mt-0 mb-0 pt-1">
-        <h1 class="mt-0">Stop and smell the roses.</h1>
+    <div class="jumbotron hero-background-img text-center mt-0 mb-0 pt-4">
+        <h1 class="pt-5">Stop and smell the roses.</h1>
     </div>
 
-    <!-- CATEGORIES -->
-    <div class="container mb-5 mt-5 pb-5 pt-5">
+    <!-- DESCRIPTION -->
+    <div class="text-center header2 p-5">
+        <h2>Having a busy day? Sit back and look at some flowers.</h2>
+    </div>
+    <div class="container mt-5 mb-5 pb-5">
         <div class="row">
             <div class="col-lg-4">
-                <h3>Whether you want to look at many flowers...</h3>
+                <h3>Look at many flowers . . .</h3>
                 <img src="images/many_pink_flowers.jpg" class="img-fluid" height="400">
             </div>
-            <div class="col-lg-4 col-lg-offset-4">
-                <h3>Or just one</h3>
+            <div class="col-lg-4">
+                <h3>. . . or just one . . .</h3>
                 <img src="images/pink_table.jpg" class="img-fluid" height="400">
             </div>
             <div class="col-lg-4">
-                <h3>The sky's the limit</h3>
-                <img src="images/sakura_tree.jpg" class="img-fluid" height="400">
+                <h3>. . . the sky's the limit!</h3>
+                <img src="images/cherry_sky.jpg" class="img-fluid" height="400">
             </div>
         </div>
     </div>
 
     <!-- OUR MISSION -->
-    <div class="jumbotron text-center mb-0 pt-2">
-        <h2 class="mb-4 pt-5">Our Mission</h2>
-        <p class="lead">Given the nonstop pace of today's world, it's important to slow down and appreciate the beauty in life. 
+    <div class="jumbotron text-center header2 mb-0 pt-2">
+        <h2 class="mb-3 pt-3">What is Rosa?</h2>
+        <p class="lead pl-5 pr-5">Given the nonstop pace of today's world, it's important to slow down and appreciate the beauty in life. 
                         In other words, stop and smell the roses. We took this literally and created the one-stop shop for all 
                         flower photos (not just roses!) for those days when you just need a digital replication of the real thing. 
         </p>
     </div>
 
-    <!-- FOOTER -->
-    <div class="fixed bottom bg-secondary p-5 mb-0 text-white">
-        <div class="d-flex justify-content-center">
-            <form action="#" class='form-inline'>
-                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email"/>
-                <button type="submit" class="btn btn-primary rounded-pill mb-2">Submit</button>
-            </form>
+    <!-- SUBSCRIBE -->
+    <div class="jumbotron second-background-img text-center mb-0 p-5">
+        <div class="pt-4">
+            <h3 class="pb-3">Sign up here for daily flower photos!</h3>
+            <div class="d-flex justify-content-center">
+                <form action="#" class='form-inline'>
+                    <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email"/>
+                    <button type="submit" class="btn btn-primary rounded-pill mb-2">Submit</button>
+                </form>
+            </div>
         </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="fixed bottom bg-primary p-2 mb-0 text-white">
         &copy; 2019 Rosa, Inc.
     </div>
 

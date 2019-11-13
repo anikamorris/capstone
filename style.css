@@ -1,19 +1,47 @@
 .hero-background-img {
-    background-image: url("images/single_rose.jpg");
+    background-image: url("images/smellTheRoses.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 20%;
+    background-position-y: 5%;
     font-size: 100px;
     font-weight: bolder;
     background-color: #F6648C;
-    height: 300px;
+    height: 350px;
+}
+
+.second-background-img {
+    background-image: url("images/artsy_table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+    font-size: 100px;
+    font-weight: bolder;
+    background-color: #F6648C;
+    height: 250px;
 }
 
 h1 {
-    font-size: 1em;
-    color: #F43F70;
+    font-size: 1.25em;
+    color: white;
 }
 
-.row-grid + .row-grid {
-    margin-top: 30px;
+.lead {
+    font-size: 30px;
+}
+
+.header1 {
+    background-color: #fff8fa;
+}
+
+.header2 {
+    background-color: #fee6ec;
+}
+
+.image_container img {
+    transition:transform 0.25s ease;
+}
+
+.image_container img:hover {
+    -webkit-transform:scale(1.15);
+    transform:scale(1.15);
 }
